@@ -1,0 +1,9 @@
+.section {
+  max-width: 1080px;
+
+  margin: auto;
+}
+
+.container {
+  text-align: center;
+}

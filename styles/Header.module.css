@@ -1,0 +1,27 @@
+.headerOutside {
+  background-color: cadetblue;
+}
+
+.header {
+  max-width: 1080px;
+  width: 90%;
+  height: 100px;
+  margin: auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  color: whitesmoke;
+}
+
+.headerRight {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 64px;
+}
+
+.headerRight svg {
+  margin-top: 16px;
+}
