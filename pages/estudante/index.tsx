@@ -18,10 +18,33 @@ const Estudante = () => {
 
         <section className={styles.section}>
           <div className={styles.container}>
-            <h2>Confira Alguns pedidos que se adequam ao seu perfil</h2>
+            <h2>Confira Algumas tarefas que se adequam ao seu perfil</h2>
           </div>
-          <div>
-
+          <div className={styles.cards}>
+            <div className={styles.card}>
+              <h3 className={styles.h3}>Sistema interno de Logística</h3>
+              <h4 className={styles.h4}>Mariana LocaMoveís</h4>
+              <p className={styles.p}>Tenho interese em um sistema de logística personalizado para controlar a entrada e saída de moveís do estoque.</p>
+              <button className={styles.button}>Saíba mais</button>
+            </div>
+            <div className={styles.card}>
+              <h3 className={styles.h3}>PHP</h3>
+              <h4 className={styles.h4}>Empresa</h4>
+              <p className={styles.p}>test</p>
+              <button className={styles.button}>Saíba mais</button>
+            </div>
+            <div className={styles.card}>
+              <h3 className={styles.h3}>PHP</h3>
+              <h4 className={styles.h4}>Empresa</h4>
+              <p className={styles.p}>test</p>
+              <button className={styles.button}>Saíba mais</button>
+            </div>
+            <div className={styles.card}>
+              <h3 className={styles.h3}>PHP</h3>
+              <h4 className={styles.h4}>Empresa</h4>
+              <p className={styles.p}>test</p>
+              <button className={styles.button}>Saíba mais</button>
+            </div>
           </div>
         </section>
       </main>
