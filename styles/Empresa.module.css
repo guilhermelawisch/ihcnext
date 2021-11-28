@@ -8,17 +8,87 @@
   text-align: center;
 }
 
-.cards {
+.divider {
+  height: 64px;
+}
+
+.cardstarefas {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2vw;
 }
 
-.card {
+.addcard {
   width: 100%;
   height: 240px;
 
   padding: 16px;
+  margin-top: 32px;
+
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.05);
+
+  border: dashed 2px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.plusone {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 100px;
+  height: 10px;
+  background-color: rgb(220, 220, 220);
+}
+.plustwo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 10px;
+  height: 100px;
+  background-color: rgb(220, 220, 220);
+}
+
+.cardtarefa {
+  width: 100%;
+  height: 240px;
+
+  padding: 16px;
+  margin-top: 32px;
+
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.1);
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 12px;
+
+  position: relative;
+}
+
+.cardtarefa .h3 {
+  width: 100%;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2vw;
+
+  margin-bottom: 16px;
+}
+
+.card {
+  width: 100%;
+  height: 140px;
+
+  padding: 16px;
+  margin-top: 32px;
 
   border-radius: 10px;
   background-color: rgba(0, 0, 0, 0.1);
@@ -33,6 +103,7 @@
 
 .h3 {
   margin: 0;
+  width: 80%;
 }
 
 .h4 {
@@ -45,6 +116,17 @@
   line-height: 24px;
   text-indent: 24px;
   text-align: justify;
+}
+
+.avatar {
+  position: absolute;
+  top: -15%;
+  right: 24px;
+
+  width: 72px;
+
+  border-radius: 50%;
+  border: 3px cadetblue solid;
 }
 
 .button {

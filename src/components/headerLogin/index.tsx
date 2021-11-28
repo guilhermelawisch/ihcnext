@@ -6,7 +6,9 @@ const HeaderLogin = ({ user }: any) => {
       <header className={styles.headerOutside}>
         <div className={styles.header}>
           <div>
-            <h1>Dualidade</h1>
+            <a href="/">
+              <h1>Dualidade</h1>
+            </a>
           </div>
           <div className={styles.headerRight}>
             <div>

@@ -17,6 +17,12 @@ const Estudante = () => {
         <HeaderLogin user="Luiz"/>
 
         <section className={styles.section}>
+          <div className={styles.container}> 
+            <h2>Você pode atualizar seu perfil agora mesmo</h2>
+            <p>Esteja pronto, pois nunca se sabe a hora que uma oportunidade pode aparecer</p>
+            <button>Atualizar</button>
+          </div>
+
           <div className={styles.container}>
             <h2>Confira Algumas tarefas que se adequam ao seu perfil</h2>
           </div>
@@ -28,21 +34,9 @@ const Estudante = () => {
               <button className={styles.button}>Saíba mais</button>
             </div>
             <div className={styles.card}>
-              <h3 className={styles.h3}>PHP</h3>
-              <h4 className={styles.h4}>Empresa</h4>
-              <p className={styles.p}>test</p>
-              <button className={styles.button}>Saíba mais</button>
-            </div>
-            <div className={styles.card}>
-              <h3 className={styles.h3}>PHP</h3>
-              <h4 className={styles.h4}>Empresa</h4>
-              <p className={styles.p}>test</p>
-              <button className={styles.button}>Saíba mais</button>
-            </div>
-            <div className={styles.card}>
-              <h3 className={styles.h3}>PHP</h3>
-              <h4 className={styles.h4}>Empresa</h4>
-              <p className={styles.p}>test</p>
+              <h3 className={styles.h3}>Site de vendas</h3>
+              <h4 className={styles.h4}>Oficina do Tião</h4>
+              <p className={styles.p}>A procura de um desenvolvedor para criar um site da oficina com venda de peças e serviço de atendimento ao cliente.</p>
               <button className={styles.button}>Saíba mais</button>
             </div>
           </div>

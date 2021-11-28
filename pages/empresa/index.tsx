@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import HeaderLogin from '../../src/components/headerLogin'
-import styles from '../../styles/Estudante.module.css'
+import styles from '../../styles/Empresa.module.css'
 
 const Empresa = () => {
   
@@ -18,31 +18,63 @@ const Empresa = () => {
 
         <section className={styles.section}>
           <div className={styles.container}>
-            <h2>Confira alguns desenvolvedores que se adequam a sua necessidade</h2>
+            <h2 className="h2">Tarefas publicadas</h2>
           </div>
-          <div className={styles.cards}>
-            <div className={styles.card}>
+          <div className={styles.cardstarefas}>
+            <div className={styles.addcard}>
+              <div className={styles.plusone}/>
+              <div className={styles.plustwo}/>
+            </div>
+            <div className={styles.cardtarefa}>
               <h3 className={styles.h3}>Sistema interno de Logística</h3>
               <h4 className={styles.h4}>Mariana LocaMoveís</h4>
               <p className={styles.p}>Tenho interese em um sistema de logística personalizado para controlar a entrada e saída de moveís do estoque.</p>
+              <button className={styles.button}>Editar</button>
+            </div>
+          </div>
+        </section>
+
+        <div className={styles.divider}></div>
+
+        <section className={styles.section}>
+          <div className={styles.container}>
+            <h2 className="h2">Confira alguns estudantes que se adequam a sua necessidade</h2>
+          </div>
+          <div className={styles.cards}>
+            <div className={styles.card}>
+              <h3 className={styles.h3}>Charles</h3>
+              <h4 className={styles.h4}>Desenvolvedor</h4>
+              <img src="./charles.jpg" alt="" className={styles.avatar}/>
               <button className={styles.button}>Saíba mais</button>
             </div>
             <div className={styles.card}>
-              <h3 className={styles.h3}>PHP</h3>
-              <h4 className={styles.h4}>Empresa</h4>
-              <p className={styles.p}>test</p>
+              <h3 className={styles.h3}>Fabricio</h3>
+              <h4 className={styles.h4}>Desenvolvedor</h4>
+              <img src="./fabricio.jpg" alt="" className={styles.avatar}/>
               <button className={styles.button}>Saíba mais</button>
             </div>
             <div className={styles.card}>
-              <h3 className={styles.h3}>PHP</h3>
-              <h4 className={styles.h4}>Empresa</h4>
-              <p className={styles.p}>test</p>
+              <h3 className={styles.h3}>Guilherme</h3>
+              <h4 className={styles.h4}>Desenvolvedor</h4>
+              <img src="./guilherme.jpg" alt="" className={styles.avatar}/>
               <button className={styles.button}>Saíba mais</button>
             </div>
             <div className={styles.card}>
-              <h3 className={styles.h3}>PHP</h3>
-              <h4 className={styles.h4}>Empresa</h4>
-              <p className={styles.p}>test</p>
+              <h3 className={styles.h3}>Luis</h3>
+              <h4 className={styles.h4}>Desenvolvedor</h4>
+              <img src="./perfil.png" alt="" className={styles.avatar}/>
+              <button className={styles.button}>Saíba mais</button>
+            </div>
+            <div className={styles.card}>
+              <h3 className={styles.h3}>Luiz</h3>
+              <h4 className={styles.h4}>Desenvolvedor</h4>
+              <img src="./perfil.png" alt="" className={styles.avatar}/>
+              <button className={styles.button}>Saíba mais</button>
+            </div>
+            <div className={styles.card}>
+              <h3 className={styles.h3}>Thiago</h3>
+              <h4 className={styles.h4}>Desenvolvedor</h4>
+              <img src="./thiago.jpg" alt="" className={styles.avatar}/>
               <button className={styles.button}>Saíba mais</button>
             </div>
           </div>
